@@ -1,0 +1,488 @@
+body.landing {
+  width: 100vw;
+  height: 361vw;
+  overflow-x: hidden;
+
+  .body {
+    padding: 2.3vw 2.6vw 7vw 2.6vw;
+
+    // Меню
+    .menu {
+      .links {
+        width: 29.8vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 5vw;
+
+        a {
+          font: 0.9vw;
+          color: var(--blue);
+
+          &:hover {
+            color: var(--hover_blue);
+            transition: 0.2s;
+          }
+        }
+
+      }
+
+      .logos {
+        &:hover {
+          transform: rotate(10deg);
+          transition: 0.2s;
+        }
+      }
+
+      a {
+        #but_t {
+          width: 11.9vw;
+          height: 2.2vw;
+          background-color: var(--blue);
+          border-radius: 2vw;
+
+          &:hover {
+            background-color: var(--hover_blue);
+            transition: 0.2s;
+          }
+
+          p {
+            color: var(--white);
+            width: 14vw;
+            font-size: 0.8vw;
+            padding: 0.8vw 2vw 0.8vw 2vw;
+          }
+        }
+      }
+    }
+
+    .chisla {
+      margin-top: -2vw;
+      margin-left: 31.2vw;
+      width: 25.9vw;
+      display: flex;
+      justify-content: space-between;
+
+
+      p {
+        font-size: 0.6vw;
+        color: var(--blue);
+      }
+
+      .l2 {
+        margin-left: -0.8vw;
+      }
+
+      .l3 {
+        margin-left: 0.4vw;
+      }
+    }
+
+    .img1 {
+      position: absolute;
+      width: 18vw;
+      left: 20.5vw;
+      top: 33.5vw;
+      z-index: 100;
+      transform: rotate(-12deg);
+    }
+
+    .img2 {
+      position: absolute;
+      width: 18vw;
+      left: 42.6vw;
+      top: 8.5vw;
+      transform: rotate(10deg);
+    }
+
+    .img4 {
+      position: absolute;
+      width: 18vw;
+      left: -4vw;
+      top: 12.5vw;
+      transform: rotate(30.5deg);
+    }
+
+    .img3 {
+      position: absolute;
+      width: 18vw;
+      left: 74.5vw;
+      top: 43.5vw;
+      z-index: 100;
+      transform: rotate(12.5deg);
+    }
+
+    .disc {
+      position: absolute;
+      top: 36.5vw;
+      left: 64.5vw;
+      font-size: 1.1vw;
+      width: 15.2vw;
+      color: var(--blue);
+    }
+
+    .log {
+      position: absolute;
+      top: 16vw;
+      left: 11vw;
+      width: 79vw;
+    }
+
+    #blue {
+      width: 105vw;
+      height: 78.5vw;
+      background-color: var(--blue);
+      position: absolute;
+      top: 59vw;
+      left: -1vw;
+    }
+
+    .num1 {
+      position: relative;
+      font-size: 4.5vw;
+      top: 64.2vw;
+      left: 5.5vw;
+      color: var(--white);
+    }
+
+    .raz1 {
+      position: relative;
+      font-size: 4.5vw;
+      width: 40.8vw;
+      line-height: 95%;
+      top: 59.8vw;
+      left: 15.3vw;
+      color: var(--white);
+    }
+
+    .descr {
+      position: relative;
+      font-size: 1.1vw;
+      line-height: 135%;
+      width: 31.8vw;
+      top: 62.5vw;
+      left: 15.6vw;
+      color: var(--white);
+    }
+
+    .nakl1 {
+      position: relative;
+      width: 29.8vw;
+      top: 45vw;
+      left: 58.7vw;
+    }
+
+    .info1 {
+      position: relative;
+      width: 1.6vw;
+      top: 83vw;
+      left: 15vw;
+    }
+
+    .opis {
+      position: relative;
+      font-size: 0.9vw;
+      line-height: 135%;
+      width: 22.9vw;
+      top: 81.5vw;
+      left: 19vw;
+      color: var(--white);
+    }
+
+    .scr1 {
+      position: relative;
+      top: 51.8vw;
+      left: 0;
+      height: 33vw;
+      width: 100%;
+      background: url(./images/landing/scr1.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .scr_p {
+      position: relative;
+      width: 100%;
+      top: 52.5vw;
+      left: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+
+      .scr_p1 {
+        font-size: 0.9vw;
+        color: var(--blue);
+      }
+
+      .scr_p2 {
+        font-size: 0.9vw;
+        color: var(--blue);
+        margin-left: 13.7vw;
+      }
+
+      .scr_p3 {
+        font-size: 0.9vw;
+        color: var(--blue);
+        margin-left: 36.4vw;
+      }
+    }
+
+    .num2 {
+      position: relative;
+      font-size: 4.5vw;
+      top: 63.6vw;
+      left: 4.5vw;
+      color: var(--blue);
+    }
+
+    #raz2 {
+      position: relative;
+      font-size: 4.5vw;
+      width: 60vw;
+      line-height: 95%;
+      top: 59.2vw;
+      left: 15.4vw;
+      color: var(--blue);
+    }
+
+    .descr1 {
+      position: relative;
+      font-size: 1.1vw;
+      line-height: 135%;
+      width: 31.8vw;
+      top: 62vw;
+      left: 15.6vw;
+      color: var(--blue);
+    }
+
+    #yellow {
+      width: 105vw;
+      height: 66vw;
+      background-color: var(--yellow);
+      position: relative;
+      top: 72.5vw;
+      left: -3vw;
+    }
+
+    .num3 {
+      position: relative;
+      font-size: 4.5vw;
+      top: 16vw;
+      left: 4.5vw;
+      color: var(--white);
+    }
+
+    .raz3 {
+      position: relative;
+      font-size: 4.5vw;
+      width: 60vw;
+      line-height: 95%;
+      top: 11.5vw;
+      left: 15.4vw;
+      color: var(--white);
+    }
+
+    .soder {
+      width: 32vw;
+      height: 40vw;
+      margin-top: 17vw;
+      margin-left: 13vw;
+      position: relative;
+      background: url(./images/landing/soderz.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .head1 {
+      position: relative;
+      font-size: 1.85vw;
+      top: -36.5vw;
+      left: 54vw;
+      color: var(--white);
+    }
+
+    .op1 {
+      position: relative;
+      font-size: 1.85vw;
+      top: -38.5vw;
+      left: 66vw;
+      width: 25vw;
+      color: var(--white);
+    }
+
+    .mod1 {
+      position: relative;
+      font-size: 1.1vw;
+      top: -36.5vw;
+      left: 66vw;
+      color: var(--white);
+      line-height: 135%;
+    }
+
+    .but1 {
+      position: relative;
+      top: -34.5vw;
+      left: 66vw;
+      width: 12.9vw;
+      height: 2.2vw;
+      background-color: var(--white);
+      border-radius: 2vw;
+
+      &:hover {
+        opacity: 0.85;
+        transition: 0.2s;
+      }
+
+      p {
+        color: var(--yellow);
+        width: 14vw;
+        font-size: 0.8vw;
+        padding: 0.8vw 2vw 0.8vw 2vw;
+      }
+    }
+
+    .head2 {
+      position: relative;
+      font-size: 1.85vw;
+      top: -29vw;
+      left: 54vw;
+      color: var(--white);
+    }
+
+    .op2 {
+      position: relative;
+      font-size: 1.85vw;
+      top: -30.9vw;
+      left: 66vw;
+      width: 25vw;
+      color: var(--white);
+    }
+
+    .mod2 {
+      position: relative;
+      font-size: 1.1vw;
+      top: -29vw;
+      left: 66vw;
+      color: var(--white);
+      line-height: 135%;
+    }
+
+    .but2 {
+      position: relative;
+      top: -27vw;
+      left: 66vw;
+      width: 12.9vw;
+      height: 2.2vw;
+      background-color: var(--white);
+      border-radius: 2vw;
+
+      &:hover {
+        opacity: 0.85;
+        transition: 0.2s;
+      }
+
+      p {
+        color: var(--yellow);
+        width: 14vw;
+        font-size: 0.8vw;
+        padding: 0.8vw 2vw 0.8vw 2vw;
+      }
+    }
+
+    .but_m {
+      position: relative;
+      top: -4.5vw;
+      left: 15.4vw;
+      width: 11.9vw;
+      height: 2.2vw;
+      background-color: var(--blue);
+      border-radius: 2vw;
+
+      &:hover {
+        background-color: var(--hover_blue);
+        transition: 0.2s;
+      }
+
+      p {
+        color: var(--white);
+        width: 14vw;
+        font-size: 0.8vw;
+        padding: 0.8vw 2vw 0.8vw 2vw;
+      }
+    }
+
+    .num4 {
+      position: relative;
+      font-size: 4.5vw;
+      top: -5vw;
+      left: 4.5vw;
+      color: var(--blue);
+    }
+
+    #raz4 {
+      position: relative;
+      font-size: 4.5vw;
+      width: 43vw;
+      line-height: 95%;
+      top: -9.5vw;
+      left: 15.4vw;
+      color: var(--blue);
+    }
+
+    .descr2 {
+      position: relative;
+      font-size: 1.1vw;
+      line-height: 135%;
+      width: 31.8vw;
+      top: -6.5vw;
+      left: 15.6vw;
+      color: var(--blue);
+    }
+
+    .img7 {
+      position: relative;
+      width: 29.6vw;
+      top: -19vw;
+      left: 61vw;
+    }
+
+    .info2 {
+      position: relative;
+      width: 1.6vw;
+      top: -20.3vw;
+      left: -14.5vw;
+    }
+
+    .opis2 {
+      position: relative;
+      font-size: 0.9vw;
+      line-height: 135%;
+      width: 22.9vw;
+      top: -21.8vw;
+      left: 18.9vw;
+      color: var(--blue);
+    }
+
+  }
+
+  .fm {
+    top: -17vw;
+    position: relative;
+    background-color: var(--green);
+
+    .nazv_t {
+      width: 80vw;
+    }
+
+    .n_t {
+      .but {
+        color: var(--green);
+
+        &:hover {
+          opacity: 0.85;
+          transition: 0.2s;
+        }
+      }
+    }
+  }
+}
